@@ -12,7 +12,7 @@ description: > # the ">" symbol means to ignore newlines until "footer_text:"
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-keywords: jekyll, jekyll-theme, academic-website, portfolio-website  # add your own keywords or leave empty
+keywords: PhD, Caltech, machine-learning, academic-website  # add your own keywords or leave empty
 
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: favicon.png # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
@@ -79,7 +79,7 @@ stackoverflow_id: #your stackoverflow id
 # -----------------------------------------------------------------------------
 
 google_analytics: G-PW5TRGPGTC # your google-analytics ID (format: UA-XXXXXXXXX)
-panelbear_analytics: GOXz5rfo88p # panelbear analytics site ID (format: XXXXXXXXX)
+panelbear_analytics:  # panelbear analytics site ID (format: XXXXXXXXX)
 
 # google_site_verification: ITqTJBkCNCru6palC7VJU9M_4wAPeyTkC1U5AIcSUFQ # your google-site-verification ID (Google Search Console)
 google_site_verification: e333hxM7_vurtlWMF11NO6VGCYQVCQBbEUPnTGxx5Kg #
@@ -106,8 +106,8 @@ disqus_shortname:  # put your disqus shortname
 # If you have blog posts published on medium.com or other exteranl sources,
 # you can display them in your blog by adding a link to the RSS feed.
 external_sources:
-  - name: medium.com
-    rss_url: https://medium.com/@al-folio/feed
+  # - name: medium.com
+  #   rss_url: https://medium.com/@al-folio/feed
 
 # -----------------------------------------------------------------------------
 # Collections

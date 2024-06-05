@@ -1,5 +1,6 @@
 ---
 layout: page
+permalink: humanlikebehavior
 title: Humanlike Behavior in a Third-Person Shooter with Imitation Learning
 description:
 img: assets/img/Data Collection_logo.pdf

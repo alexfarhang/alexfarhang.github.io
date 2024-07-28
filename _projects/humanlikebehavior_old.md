@@ -1,9 +1,9 @@
----
+<!-- ---
 layout: page
 permalink: humanlikebehavior
 title: Humanlike Behavior in a Third-Person Shooter with Imitation Learning
 description:
-img: assets/img/Data Collection_logo.pdf
+img: assets/img/DC_logo.png
 importance: 1
 category: research
 ---
@@ -16,4 +16,4 @@ category: research
 </div>
 <div class="caption">
   Behavior examples from different models: Unconditioned, High skill group conditioned, Low skill group conditioned, and Player conditioned model.
-</div>
+</div> -->

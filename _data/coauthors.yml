@@ -16,3 +16,67 @@
 
   - firstname: ["Carl Philipp Emanuel", "C. P. E."]
     url: https://en.wikipedia.org/wiki/Carl_Philipp_Emanuel_Bach
+
+"Matthews":
+  - firstname: ["Iain", "I."]
+    url: http://www.iainm.com
+
+"Yue":
+  - firstname: ["Yisong", "Y."]
+    url: http://www.yisongyue.com
+
+"Mulcahy":
+  - firstname: ["Brendan", "B."]
+    url: https://www.linkedin.com/in/brmulcahy/
+
+"Holden":
+  - firstname: ["Daniel", "D."]
+    url: https://theorangeduck.com
+
+"Bernstein":
+  - firstname: ["Jeremy", "J."]
+    url: https://jeremybernste.in
+
+"Tirumala":
+  - firstname: ["Kushal", "K."]
+    url: https://kushaltirumala.github.io
+
+"Liu": 
+ - firstname: ["Yang", "Y."]
+   url: https://scholar.google.com/citations?user=nVWQwHkAAAAJ&hl
+
+"Chen":
+ - firstname: ["Ruidong", "R."]
+   url: https://scholar.google.com/citations?user=omTfD3gAAAAJ&hl
+
+"Puzerey":
+  - firstname: ["Pavel", "P. A."]
+    url: https://www.linkedin.com/in/pavel-puzerey-5814775a/
+
+"Goldberg":
+  - firstname: ["Jesse", "J. H."]
+    url: https://sites.google.com/view/goldberg-lab/home
+
+"Gadagkar":
+  - firstname: ["Vikram", "V."]
+    url: https://gadagkar.zuckermaninstitute.columbia.edu/people/vikram-gadagkar
+
+"Roeser":
+  - firstname: ["Andrea", "A. C."]
+    url: https://nbb.emory.edu/people/bios/roeser-andrea.html
+
+"Riccelli":
+  - firstname: ["Tori", "T. E."]
+    url: https://brownneurosurgery.com/our-team/tori-riccelli/
+
+"Podury":
+  - firstname: ["Archana", "A."]
+    url: https://scholar.google.com/citations?user=6Cy0iqUAAAAJ&hl
+
+"Maher":
+  - firstname: ["Kamal", "K."]
+    url: https://www.linkedin.com/in/kamal-maher-4b526395/
+
+"Baird-Daniel":
+  - firstname: ["Eliza", "E."]
+    url: https://neurosurgery.uw.edu/bio/eliza-baird-daniel-md

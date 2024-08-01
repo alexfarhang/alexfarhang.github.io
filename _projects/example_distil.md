@@ -74,12 +74,11 @@ toc:
 
 Companion page for [*Humanlike Behavior in a Third-Person Shooter with Imitation Learning*](assets/pdf/Humanlike_Behavior.pdf)<d-cite key="farhang2024Humanlike"></d-cite>, presented in August 2024 at the [IEEE Conference on Games (CoG) in Milan](https://2024.ieee-cog.org).
 
-***
 ### Abstract
 
 We tackle the problem of generating humanlike bot behavior by learning from human demonstrations. We developed a controlled gym environment to collect data on a subset of human behavior—namely aiming and target acquisition in single opponent settings. We introduce an identity-conditioned causal transformer to produce humanlike behavior of a controllable quality on a per-frame basis that captures the differences in skill and style between conditioned players.
 
-***
+
 ### Model
 Our agent model is based on a causal transformer neural network trained on human gameplay.  The transformer network is autoregressive, and learns to reconstruct future actions based on previous state-action sequences.  
 
@@ -94,7 +93,6 @@ Our agent model is based on a causal transformer neural network trained on human
 
 We add a novel type of identity-conditioning by prompting the transformer with a prepended learned token signifying a player's identity, modifying the quality of gameplay.  We can segment the training dataset into different identity groups, for example by skill level (win rate) or unique player identity.  This approach allows us to incorporate multiple skills or styles of gameplay in a single model, which enables batch processing of neural network controlled bots with differing characteristics.  Our approach can replicate qualitative and quantitative aspects of humanlike gameplay and capture elements of individual player style.
 
-***
 ### Example Video
 
 <div class="row justify-content-sm-center">

@@ -1,34 +1,96 @@
-"adams":
-  - firstname: ["Edwin", "E.", "E. P.", "Edwin Plimpton"]
-    url: https://en.wikipedia.org/wiki/Edwin_Plimpton_Adams
+"matthews":
+  - firstname: ["Iain", "I."]
+    url: http://www.iainm.com
 
-"podolsky":
-  - firstname: ["Boris", "B.", "B. Y.", "Boris Yakovlevich"]
-    url: https://en.wikipedia.org/wiki/Boris_Podolsky
+"erickson":
+  - firstname: ["Anne", "A.", "A. L."]
+    url: https://annieerickson.github.io
+"yue":
+  - firstname: ["Yisong", "Y."]
+    url: http://www.yisongyue.com
 
-"rosen":
-  - firstname: ["Nathan", "N."]
-    url: https://en.wikipedia.org/wiki/Nathan_Rosen
+"mulcahy":
+  - firstname: ["Brendan", "B."]
+    url: https://www.linkedin.com/in/brmulcahy/
 
-"bach":
-  - firstname: ["Johann Sebastian", "J. S."]
-    url: https://en.wikipedia.org/wiki/Johann_Sebastian_Bach
+"holden":
+  - firstname: ["Daniel", "D."]
+    url: https://theorangeduck.com
 
-  - firstname: ["Carl Philipp Emanuel", "C. P. E."]
-    url: https://en.wikipedia.org/wiki/Carl_Philipp_Emanuel_Bach
+"bernstein":
+  - firstname: ["Jeremy", "J."]
+    url: https://jeremybernste.in
 
-"przibram":
-  - firstname: ["Karl"]
-    url: https://link.springer.com/article/10.1007/s00016-019-00242-z
+"tirumala":
+  - firstname: ["Kushal", "K."]
+    url: https://kushaltirumala.github.io
 
-"schrodinger":
-  - firstname: ["Erwin"]
-    url: https://en.wikipedia.org/wiki/Erwin_Schr%C3%B6dinger
+"liu": 
+ - firstname: ["Yang", "Y."]
+   url: https://scholar.google.com/citations?user=nVWQwHkAAAAJ&hl
 
-"lorentz":
-  - firstname: ["Hendrik Antoon"]
-    url: https://en.wikipedia.org/wiki/Hendrik_Lorentz
+"chen":
+ - firstname: ["Ruidong", "R."]
+   url: https://scholar.google.com/citations?user=omTfD3gAAAAJ&hl
+ - firstname: ["Jonathan", "J."]
+   url: https://jonochen.net
 
-"planck":
-  - firstname: ["Max"]
-    url: https://en.wikipedia.org/wiki/Max_Planck
+"puzerey":
+  - firstname: ["Pavel", "P. A."]
+    url: https://www.linkedin.com/in/pavel-puzerey-5814775a/
+
+"goldberg":
+  - firstname: ["Jesse", "J. H."]
+    url: https://sites.google.com/view/goldberg-lab/home
+
+"gadagkar":
+  - firstname: ["Vikram", "V."]
+    url: https://gadagkar.zuckermaninstitute.columbia.edu/people/vikram-gadagkar
+
+"roeser":
+  - firstname: ["Andrea", "A. C."]
+    url: https://nbb.emory.edu/people/bios/roeser-andrea.html
+
+"riccelli":
+  - firstname: ["Tori", "T. E."]
+    url: https://brownneurosurgery.com/our-team/tori-riccelli/
+
+"podury":
+  - firstname: ["Archana", "A."]
+    url: https://scholar.google.com/citations?user=6Cy0iqUAAAAJ&hl
+
+"maher":
+  - firstname: ["Kamal", "K."]
+    url: https://www.linkedin.com/in/kamal-maher-4b526395/
+
+"baird-daniel":
+  - firstname: ["Eliza", "E."]
+    url: https://neurosurgery.uw.edu/bio/eliza-baird-daniel-md
+
+"wang":
+  - firstname: ["Julie", "X."]
+    url: https://scholar.google.com/citations?user=KWEM48sAAAAJ
+
+"stiles":
+  - firstname: ["Sophia", "S."]
+    url: https://www.linkedin.com/in/sophia-stiles
+
+"horstmann":
+  - firstname: ["Kai", "K. A."]
+    url: https://www.linkedin.com/in/kai-horstmann/
+
+"sehgal":
+  - firstname: ["Atharva", "A."]
+    url: https://atharvas.net
+
+"light":
+  - firstname: ["Jonathan", "J."]
+    url: https://jonathanmli.github.io
+
+"van valen":
+  - firstname: ["David", "D."]
+    url: https://www.vanvalen.caltech.edu
+
+"sun":
+  - firstname: ["J. J."]
+    url: https://jenjsun.com

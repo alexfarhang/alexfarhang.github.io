@@ -200,6 +200,7 @@ exclude:
   - _pages/dropdown.md
   - _pages/books.md
   - _books/
+  - assets/pdf/example_pdf.pdf
 
 keep_files:
   - CNAME
@@ -231,6 +232,10 @@ defaults:
       path: "assets"
     values:
       sitemap: false
+  - scope:
+      path: "assets/pdf"
+    values:
+      sitemap: true
 
 sass:
   style: compressed

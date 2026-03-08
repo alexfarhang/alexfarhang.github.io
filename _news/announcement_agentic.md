@@ -1,7 +1,7 @@
 ---
 layout: post
-date: 2025-10-10 15:59:00-0400
+date: 2026-03-01 15:59:00-0400
 inline: true
 ---
 
-Our work using LLM agents for writing scientific preprocessing code for biological image processing was presented at the [COLM LM4SCI workshop](https://lm4sci.github.io) ([paper](https://openreview.net/pdf?id=ozFyM0IVh1))
+Our work on [Simple LLM Agents](https://arxiv.org/abs/2512.06006) was accepted at [CVPR](https://cvpr.thecvf.com)

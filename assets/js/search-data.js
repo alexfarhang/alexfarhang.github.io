@@ -40,6 +40,11 @@ ninja.data = [{
           description: "",
           section: "Projects",handler: () => {
               window.location.href = "/humanlikebehavior";
+            },},{id: "projects-agentbayes-open-ended-scientific-model-discovery",
+          title: 'AgentBayes: Open-Ended Scientific Model Discovery',
+          description: "An agentic system for Bayesian model discovery.",
+          section: "Projects",handler: () => {
+              window.location.href = "/agentbayes";
             },},{
         id: 'social-email',
         title: 'email',

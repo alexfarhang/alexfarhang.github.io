@@ -32,6 +32,7 @@ toc:
   - name: The structure of scientific data
   - name: The approach
   - name: Highlights
+  - name: Case studies
   - name: Code & citation
 ---
 
@@ -80,10 +81,23 @@ The data and posterior samples are never serialized into the LLM's context windo
 - **Outperforms recent LLM-driven symbolic-regression systems** on real scientific data with nested experimental structure, including a neuroscience dataset of olfactory dose-response, a biomechanics dataset of fly wingbeat kinematics, and an environmental health dataset of radon contamination.
 - **Scales to larger dataset sizes** where comparable agentic Bayesian baselines overflow the LLM context window.
 - **Surfaces structure that benchmarks and original analyses missed**, and adapts its probabilistic programs accordingly.
-- **Case Studies**
-  - **Catching hidden data artifacts.** Through interactive data exploration, AgentBayes identified a data sentinel (and accomodates it in modeling) that was treated as a real continuous measurement in the expert reference model, biasing the inferred effect.
-  - **Replacing a multi-stage expert pipeline with one model.** On an olfactory dataset, AgentBayes independently arrived at the modeling primitives domain experts used, allowing the replacement a staged hand-tuned pipeline with a single hierarchical model that handles response heterogeneity via partial pooling instead of upfront classification.
 
+### Case studies
+
+**Replacing a multi-stage expert pipeline with a single model.** On a *Drosophila* larval olfactory dataset ([Si et al., 2019](https://doi.org/10.1016/j.neuron.2018.12.030)), receptor × odorant pairs span saturating responders, partial responders, and non-responders. The original analysis handles this heterogeneity through a sequence of expert-curated fitting tiers. AgentBayes independently arrived at the same response primitive the experts use (the Hill function) and built a single joint model: a hurdle component for whether a pair responds, paired with a hierarchical Hill function over crossed receptor, odorant, and pair random effects. Saturators, partial responders, and non-responders all fall out of one fit via partial pooling, with no upfront classification step of response type.
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/agentbayes/odorant.png" title="AgentBayes vs SR baselines on three receptor-odorant pairs" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+  Three example receptor-odorant pairs from the dataset: a saturator, a responder, and a non-responder. AgentBayes models all three response types from one joint model.
+</div>
+
+**Catching hidden data artifacts.** In a hierarchical benchmark, the expert reference model treats a variable encoded 0–3 as a continuous slope. About 2% of rows carry the value 9, a likely placeholder sentinel for "unknown," which gets folded into the slope as an artifact and biases the inferred effect toward zero. During data exploration, AgentBayes flagged the 9 as *"a special code-like level (9), indicating it may be categorical with nonstandard coding rather than a continuous measurement,"* and re-encoded the variable as per-level indicators. This demonstrates the value of AgentBayes's interactive data exploration and analysis when constructing models.
+
+**Identifying unexpected variations.** In the same hierarchical benchmark, the agent investigated a county-level covariate (uranium concentration) that should, geologically, be constant within each county. During data exploration it found that 73 of 386 counties had within-county variation that shouldn't exist, and split the covariate into between- and within-county components. The expert single-slope model averages the two contributions (the genuine between-county effect and the spurious within-county artifact), dragging the inferred effect toward zero; the decomposition recovers the true effect. The artifact later traced to a preprocessing collision in the benchmark itself, where county indices built from name strings had collapsed cross-state homonyms. 
 
 ### Code & citation
 
